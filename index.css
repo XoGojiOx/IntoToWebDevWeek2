@@ -1,0 +1,83 @@
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #e7e6f7;
+}
+
+h1 {
+  color: #011627;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  color: #011627;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  color: #1f487e;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li {
+  color: #830a48;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.custom-list {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 20px; /* Adjust padding to ensure space for image */
+}
+
+.custom-list li {
+  margin-bottom: 10px; /* Example spacing between list items */
+  padding-left: 35px; /* Adjust padding to ensure space for image */
+  list-style-type: none; /* Remove default list style */
+  background-image: url("./Steaks/steak.jpg"); /* Replace default bullet with image */
+  background-size: 30px 30px; /* Set size of the background image */
+  background-repeat: no-repeat; /* Ensure image does not repeat */
+  background-position: center left; /* Position image on the left */
+  line-height: 1.5; /* Example line height for spacing */
+  display: inline-flex; /* Use flexbox for better control */
+  align-items: center; /* Center align items vertically */
+}
+
+table.classes {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #011627;
+  border-style: solid;
+  color: #830a48;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+table.classes td,
+table.classes th {
+  border-width: 2px;
+  border-color: #011627;
+  border-style: solid;
+  padding: 5px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+table.classes thead {
+  background-color: #b4656f;
+}
